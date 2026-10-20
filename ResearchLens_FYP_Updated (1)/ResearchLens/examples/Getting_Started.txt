@@ -1,0 +1,18 @@
+ResearchLens - Practice Document
+
+This is a tutorial document for testing the application. It is not a published research paper and contains no scientific experiment results.
+
+Overview
+ResearchLens helps you upload a document, search for useful passages and save research notes. Start by asking about methodology or limitations.
+
+Methodology
+The local search mode splits a document into smaller passages and stores them in a SQLite full-text index. A search question is matched to words in those passages. The results include the document name and page reference where available.
+
+Limitations
+Keyword search can miss synonyms and differently worded questions. A scanned PDF needs readable text or OCR. The local mode shows original passages; it does not write a new AI summary and it cannot establish whether a scientific claim is true.
+
+Optional AI Answers
+A configured Azure or Groq connection can write an answer using relevant passages. Cloud mode sends passages and some conversation context to the selected provider. Azure usage consumes credits or incurs charges; free-tier services have usage limits.
+
+Downloading Notes
+After asking a question, use Download PDF or Download text notes. The export contains the questions, answers or excerpts, and references. Always check the original source before relying on a research claim.

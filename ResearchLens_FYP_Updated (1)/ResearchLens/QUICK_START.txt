@@ -1,0 +1,25 @@
+RESEARCHLENS - CHAT EDITION
+
+1. Extract the complete ZIP into a fresh folder.
+2. Double-click START_WINDOWS.bat (Python 3.12 required).
+3. Create an account and sign in.
+4. Open AI connection in the sidebar.
+5. Choose Groq - free tier, paste your Groq API key, click Check & connect Groq.
+6. Attach your PDF from the sidebar and click Add files.
+7. Choose a document in Answer using. Ask a question in Chat. Answers are written in English, with source references.
+8. Export PDF when you want to save your research notes.
+
+No manual .env editing is required. The in-app key is session-only and clears
+on sign-out. Groq Free has request/token limits. Never share your API key.
+If AI is not connected, Chat is disabled instead of returning copied passages.
+Free passage search is separately available under Documents.
+
+Example questions:
+What is this document about?
+Summarize this paper.
+What methodology does it use?
+What limitations are described?
+Explain page 2. (Select one PDF in Answer using first.)
+Compare pages 2 and 4.
+
+The tutorial document is not a research paper. AI answers require internet.
